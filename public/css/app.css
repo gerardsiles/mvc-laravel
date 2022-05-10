@@ -52,7 +52,7 @@ body {
 
 #section-landing {
     background: linear-gradient(rgb(0 0 0 / 15%), rgb(0 0 0 / 0%)),
-        url(../../public/banner.jpg);
+        url(/images/banner.jpg?94c24c60fe49a7834c055bd796941ecc);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -172,6 +172,14 @@ body {
     position: relative;
     margin: 20px auto;
 }
+input::-moz-placeholder {
+    color: #beb9b9;
+    font-size: 14px;
+}
+input:-ms-input-placeholder {
+    color: #beb9b9;
+    font-size: 14px;
+}
 input::placeholder {
     color: #beb9b9;
     font-size: 14px;
@@ -264,3 +272,4 @@ a:active {
 table {
     margin: auto;
 }
+
